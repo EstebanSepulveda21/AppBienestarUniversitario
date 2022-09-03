@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".service_santa_ana">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="83dp"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:srcCompat="@drawable/ic_arrow_back"
+            android:onClick="btn_back_arrow_service_santa_ana"/>
+
+        <Button
+            android:id="@+id/btn_psychology"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/service_santa_ana_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_services_santa_ana"
+            app:strokeColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_reserve_date"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="130dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/txt_date_reserve_services"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_sports"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="155dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/select_sport_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black" />
+
+        <RadioGroup
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="215dp"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="160dp"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_1" />
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_2" />
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_3" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_4" />
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_5" />
+
+                <RadioButton
+                    android:id="@+id/rdbtn_sport_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rdbtn_sport_6" />
+            </RadioGroup>
+        </RadioGroup>
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="360dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/select_hour_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/rdg_first_column"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="420dp">
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_1" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_2" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_3" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_4" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_5" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_6" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rdg_second_column"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="420dp">
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_7" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_8" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_9" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_10" />
+
+            <RadioButton
+                android:id="@+id/rdbtn_hour_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rdbtn_hour_11" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_reserve"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="660dp"
+            android:layout_marginStart="320dp"
+            app:cornerRadius="30dp"
+            app:icon="@drawable/ic_send"
+            app:strokeColor="@color/black" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

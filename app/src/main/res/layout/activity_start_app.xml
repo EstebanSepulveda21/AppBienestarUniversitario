@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/main_color_university"
+            android:backgroundTint="@color/main_color_university">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btn_log_in"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="310dp"
+            android:text="@string/btn_log_in"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            android:onClick="btn_log_in"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|right|center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/btn_register"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            android:onClick="btn_register"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="626dp"
+            app:cardBackgroundColor="@color/main_color_university"
+            app:cardCornerRadius="18dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="352dp"
+                android:layout_height="368dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_unibague"
+                app:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

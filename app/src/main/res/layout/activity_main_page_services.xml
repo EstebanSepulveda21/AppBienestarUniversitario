@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_page_services">
+
+    <LinearLayout
+
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btn_psychology"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/psychology_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_psychology"
+            app:strokeColor="@color/black"
+            android:onClick="btn_service_psychology"
+            />
+
+        <Button
+            android:id="@+id/btn_service_santa_ana"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/service_santa_ana_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:icon="@drawable/ic_services_santa_ana"
+            android:onClick="btn_service_santa_ana"
+            />
+
+        <Button
+            android:id="@+id/btn_group_artist"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/group_artist_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:icon="@drawable/ic_users"
+            />
+
+        <Button
+           android:id="@+id/btn_collection_alfonso"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/collection_alfonso_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:icon="@drawable/ic_music"
+            />
+
+        <Button
+            android:id="@+id/btn_reservation"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/reservation_btn"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:icon="@drawable/ic_date_check"
+            android:onClick="btn_reserves"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_unibague"
+            app:tint="@color/main_color_university" />
+    </LinearLayout>
+</RelativeLayout>

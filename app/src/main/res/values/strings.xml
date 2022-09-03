@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BienestarUniversitario</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="btn_log_in">Log In</string>
+    <string name="btn_register">Register</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Log In</string>
+    <string name="email_example">name@example.com </string>
+    <string name="password_example">*******</string>
+    <string name="next_btn">Next</string>
+    <string name="name_hint">Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="program_Code_hint">Program Code</string>
+    <string name="cell_phone_hint">Cell Phone</string>
+    <string name="psychology_btn">psychological counseling</string>
+    <string name="service_santa_ana_btn">Campus Santa Ana</string>
+    <string name="group_artist_btn">Art projection group</string>
+    <string name="collection_alfonso_btn">Collection Alfonso Viña</string>
+    <string name="reservation_btn">Reservations made</string>
+    <string name="bookings_title">Bookings</string>
+    <string name="not_bookings_title">You have not yet booked</string>
+    <string name="txt_date_reserve_services">The reservation will be scheduled for the next day</string>
+    <string name="select_hour_btn">Select the hour to reserve</string>
+    <string name="select_sport_btn">Select sport to reserve</string>
+    <string name="rdbtn_hour_1">8:00AM</string>
+    <string name="rdbtn_hour_2">9:00AM</string>
+    <string name="rdbtn_hour_3">10:00AM</string>
+    <string name="rdbtn_hour_4">11:00AM</string>
+    <string name="rdbtn_hour_5">12:00PM</string>
+    <string name="rdbtn_hour_6">01:00PM</string>
+    <string name="rdbtn_hour_7">02:00PM</string>
+    <string name="rdbtn_hour_8">03:00PM</string>
+    <string name="rdbtn_hour_9">04:00PM</string>
+    <string name="rdbtn_hour_10">05:00PM</string>
+    <string name="rdbtn_hour_11">06:00PM</string>
+    <string name="rdbtn_sport_1">sport 1</string>
+    <string name="rdbtn_sport_2">sport 2</string>
+    <string name="rdbtn_sport_3">sport 3</string>
+    <string name="rdbtn_sport_4">sport 4</string>
+    <string name="rdbtn_sport_5">sport 5</string>
+    <string name="rdbtn_sport_6">sport 6</string>
+    <string name="reserve_btn">Reserve</string>
+    <string name="txt_example_reserve">"dd/mm/yyyy" - "hh/mm/ss" - "activity"</string>
+    <string name="txt_failure_reserve">The reservation could not be made, please try another time</string>
+    <string name="txt_check_reserve">Your reservation on the day "dd/mm/aaaa" at the time "hh/mm/ss" is made, please do not miss it. If you have any problem, please inform in advance to the area in charge.</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    tools:context=".dialogs.Alert_Reserve_Check">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="165dp"
+        android:src="@drawable/ic_date_check"/>
+
+    <TextView
+        android:id="@+id/txt_info_failure_reserve"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/txt_check_reserve"
+        />
+
+</LinearLayout>
