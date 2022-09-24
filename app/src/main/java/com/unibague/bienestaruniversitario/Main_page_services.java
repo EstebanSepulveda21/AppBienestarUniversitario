@@ -26,7 +26,7 @@ public class Main_page_services extends AppCompatActivity {
 
     public void btn_service_santa_ana (View view){
         try{
-            Intent intent = new Intent(this, service_santa_ana.class);
+            Intent intent = new Intent(this, Service_santa_ana.class);
             startActivity(intent);
         }catch (ActivityNotFoundException e){
             e.getMessage();

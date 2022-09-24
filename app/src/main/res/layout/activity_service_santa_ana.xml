@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".service_santa_ana">
+    tools:context=".Service_santa_ana">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -61,57 +61,11 @@
             app:cornerRadius="20dp"
             app:strokeColor="@color/black" />
 
-        <RadioGroup
-            android:layout_width="317dp"
+        <Spinner
+            android:id="@+id/spinner_sport"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="215dp"
-            android:orientation="horizontal">
-            <RadioGroup
-                android:layout_width="160dp"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_1" />
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_2" />
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_3" />
-            </RadioGroup>
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_4" />
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_5" />
-
-                <RadioButton
-                    android:id="@+id/rdbtn_sport_6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rdbtn_sport_6" />
-            </RadioGroup>
-        </RadioGroup>
+            android:layout_marginTop="220dp"/>
 
         <Button
             style="?attr/materialButtonOutlinedStyle"
@@ -126,87 +80,11 @@
             app:cornerRadius="20dp"
             app:strokeColor="@color/black" />
 
-        <RadioGroup
-            android:id="@+id/rdg_first_column"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="420dp">
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_1" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_2" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_3" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_4" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_5" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_6" />
-        </RadioGroup>
-
-        <RadioGroup
-            android:id="@+id/rdg_second_column"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="210dp"
-            android:layout_marginTop="420dp">
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_7" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_8" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_9" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_10" />
-
-            <RadioButton
-                android:id="@+id/rdbtn_hour_11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rdbtn_hour_11" />
-        </RadioGroup>
+       <Spinner
+           android:id="@+id/spinner_hour_sport"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="440dp"/>
 
 
         <Button

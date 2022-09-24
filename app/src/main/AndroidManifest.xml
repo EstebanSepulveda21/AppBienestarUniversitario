@@ -20,7 +20,7 @@
             android:name=".Reserve_Without"
             android:exported="false" />
         <activity
-            android:name=".service_santa_ana"
+            android:name=".Service_santa_ana"
             android:exported="false" />
         <activity
             android:name=".Service_Psychology"
