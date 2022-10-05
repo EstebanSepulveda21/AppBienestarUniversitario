@@ -97,13 +97,13 @@
         android:id="@+id/btn_next_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="300dp"
         android:backgroundTint="@color/black"
+        android:onClick="btn_next_log_in"
         android:text="@string/next_btn"
         android:textColor="@color/white"
         app:cornerRadius="20dp"
-        app:strokeColor="@color/black"
-        android:onClick="btn_next_log_in"/>
+        app:strokeColor="@color/black" />
 
 </RelativeLayout>

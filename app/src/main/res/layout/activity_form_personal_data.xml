@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".form_personal_data">
 
+
+
     <ImageView
         android:id="@+id/arrow_back"
         android:layout_width="wrap_content"
@@ -22,27 +24,26 @@
         android:id="@+id/form"
         android:layout_width="128dp"
         android:layout_height="128dp"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="135dp"
         android:layout_marginRight="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_form"
-        />
+        app:layout_constraintVertical_bias="0.155"
+        app:srcCompat="@drawable/ic_form" />
 
     <ImageView
         android:id="@+id/name_card"
         android:layout_width="64dp"
         android:layout_height="32dp"
-        android:layout_marginTop="251dp"
         android:clickable="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_name"/>
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/ic_name" />
 
     <EditText
         android:id="@+id/txt_name_form_data"
@@ -67,13 +68,12 @@
         android:id="@+id/last_name_card"
         android:layout_width="64dp"
         android:layout_height="32dp"
-        android:layout_marginTop="311dp"
         android:clickable="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_name"/>
+        app:layout_constraintVertical_bias="0.35"
+        app:srcCompat="@drawable/ic_name" />
 
     <EditText
         android:id="@+id/txt_last_name_form_data"
@@ -98,12 +98,11 @@
         android:id="@+id/number_card"
         android:layout_width="44dp"
         android:layout_height="51dp"
-        android:layout_marginTop="359dp"
         android:clickable="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
         app:srcCompat="@drawable/ic_number" />
 
     <EditText
@@ -129,36 +128,58 @@
         android:id="@+id/cellphone_card"
         android:layout_width="44dp"
         android:layout_height="51dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginStart="16dp"
         android:clickable="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"
         app:srcCompat="@drawable/ic_cellphone" />
 
     <EditText
         android:id="@+id/txt_cell_phone_form_data"
         android:layout_width="290dp"
         android:layout_height="39dp"
-        android:layout_marginEnd="25dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/style_border_edittext"
         android:ems="10"
         android:hint="@string/cell_phone_hint"
         android:inputType="number"
         android:textColor="@color/black"
         android:textCursorDrawable="@drawable/cursor_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/cellphone_card"
-        app:layout_constraintTop_toBottomOf="@+id/txt_number_form_data" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_number_form_data"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <EditText
+        android:id="@+id/txt_password_form_data2"
+        android:layout_width="290dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/style_border_edittext"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursor_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/last_name_card"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cell_phone_form_data"
+        app:layout_constraintVertical_bias="0.112" />
+
 
     <Button
         android:id="@+id/btn_next_register"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
+        android:onClick="addPerson"
         android:text="@string/next_btn"
         android:textColor="@color/white"
         app:cornerRadius="20dp"
@@ -167,8 +188,7 @@
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679"
-        app:strokeColor="@color/black"
-        android:onClick="btn_next"/>
+        app:layout_constraintVertical_bias="0.828"
+        app:strokeColor="@color/black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

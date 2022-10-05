@@ -44,7 +44,7 @@ public class Service_Psychology extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String element = (String) spinner.getAdapter().getItem(i);
-                Toast.makeText(this,"Hour selected: " + element,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Hour selected: " + element,Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {

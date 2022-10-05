@@ -18,7 +18,7 @@ public class Log_in extends AppCompatActivity {
     public void btn_next_log_in(View view){
         try {
             Intent intent = new Intent(this, Main_page_services.class);
-            startService(intent);
+            startActivity(intent);
         }catch (ActivityNotFoundException e) {
             e.getMessage();
         }

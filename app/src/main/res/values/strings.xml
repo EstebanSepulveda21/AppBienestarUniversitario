@@ -17,6 +17,7 @@
     <string name="last_name_hint">Last Name</string>
     <string name="program_Code_hint">Program Code</string>
     <string name="cell_phone_hint">Cell Phone</string>
+    <string name="password_hint">Password</string>
     <string name="psychology_btn">psychological counseling</string>
     <string name="service_santa_ana_btn">Campus Santa Ana</string>
     <string name="group_artist_btn">Art projection group</string>

@@ -40,7 +40,7 @@ public class Service_santa_ana extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String sport = (String) spinnerSport.getAdapter().getItem(i);
-                Toast.makeText(this,"Sport selected: " + sport,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Sport selected: " + sport,Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -53,14 +53,14 @@ public class Service_santa_ana extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String hour = (String) spinnerHour.getAdapter().getItem(i);
-                Toast.makeText(this,"Hour selected: " + hour,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Hour selected: " + hour,Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
-        })
+        });
 
 
     }
